@@ -1,0 +1,321 @@
+Kale
+
+1000
+
+ 	
+Sunflower Seeds
+
+64
+
+Collard Greens
+
+1000
+
+ 	
+Kidney Beans
+
+64
+
+Mustard Greens
+
+1000
+
+ 	
+Green Peas
+
+63
+
+Watercress
+
+1000
+
+ 	
+Cherries
+
+55
+
+Swiss Chard
+
+895
+
+ 	
+Pineapple
+
+54
+
+Bok Choy
+
+865
+
+ 	
+Apple
+
+53
+
+Spinach
+
+707
+
+ 	
+Mango
+
+53
+
+Arugula
+
+604
+
+ 	
+Peanut Butter
+
+51
+
+Romaine
+
+510
+
+ 	
+Corn
+
+45
+
+Brussels Sprouts
+
+490
+
+ 	Pistachio Nuts	37
+Carrots
+
+458
+
+ 	
+Oatmeal
+
+36
+
+Broccoli Rabe
+
+455
+
+ 	
+Shrimp
+
+36
+
+Cabbage
+
+434
+
+ 	
+Salmon
+
+34
+
+Broccoli
+
+340
+
+ 	
+Eggs
+
+31
+
+Cauliflower
+
+315
+
+ 	
+Milk, 1%
+
+31
+
+Bell Peppers
+
+265
+
+ 	
+Walnuts
+
+30
+
+Asparagus
+
+205
+
+ 	
+Bananas
+
+30
+
+Mushrooms
+
+238
+
+ 	
+Whole Wheat Bread
+
+30
+
+Tomato
+
+186
+
+ 	
+Almonds
+
+28
+
+Strawberries
+
+182
+
+ 	
+Avocado
+
+28
+
+Sweet Potato
+
+181
+
+ 	
+Brown Rice
+
+28
+
+Zucchini
+
+164
+
+ 	
+White Potato
+
+28
+
+Artichoke
+
+145
+
+ 	
+Low Fat Plain Yogurt
+
+28
+
+Blueberries
+
+132
+
+ 	Cashews	27
+Iceburg Lettuce
+
+127
+
+ 	
+Chicken Breast
+
+24
+
+Grapes
+
+119
+
+ 	
+Ground Beef, 85% lean
+
+21
+
+Pomegranates
+
+119
+
+ 	
+Feta Cheese
+
+20
+
+Cantaloupe
+
+118
+
+ 	
+White Bread
+
+17
+
+Onions
+
+109
+
+ 	
+White Pasta
+
+16
+
+Flax Seeds
+
+103
+
+ 	
+French Fries
+
+12
+
+Orange
+
+98
+
+ 	
+Cheddar Cheese
+
+11
+
+Edamame
+
+98
+
+ 	
+Apple Juice
+
+11
+
+Cucumber
+
+87
+
+ 	
+Olive Oil
+
+10
+
+Tofu
+
+82
+
+ 	
+Vanilla Ice Cream
+
+9
+
+Sesame Seeds
+
+74
+
+ 	
+Corn Chips
+
+7
+
+Lentils
+
+72
+
+ 	
+Cola
+
+1
+
+Peaches
+
+65
+
+ 	 	 
