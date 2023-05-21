@@ -6,28 +6,24 @@ const Foods = () => {
     const [foods, setFoods] = useState([]);
 
     useEffect(() => {
-        let foodsList = [
-            {
-            id: 1,
-            name: "Kale",
-            gombsCategory: "greens",
-            foodGroup: "vegetable",
-            },
-            {
-            id: 2,
-            name: "Watercress",
-            gombsCategory: "greens",
-            foodGroup: "vegetable",
-            },
-            {
-            id: 3,
-            name: "Apple",
-            gombsCategory: "fruit",
-            foodGroup: "fruit",
-            }
+       const headers = new Headers();
+       headers.append("Content-Type", "application/json");
 
-        ];
-        setFoods(foodsList)
+       const requestOptions = {
+        method: "GET",
+        headers: headers,
+       }
+
+       fetch(`http://localhost:8080/foods`, requestOptions)
+            .then((response) => response.json())
+            .then((data) => {
+                setFoods(data);
+            })
+            .catch(err => {
+                console.log(err);
+            })
+
+
     },[]);
 
     return(
