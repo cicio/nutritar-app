@@ -41,7 +41,7 @@ const Foods = () => {
                 </thead>
                 <tbody>
                     {foods.map((f) => (
-                        <tr key={f.id}>
+                        <tr key={f.FoodID}>
                             <td>
                                 <Link to={`/foods/${f.id}`}>
                                     {f.name}
