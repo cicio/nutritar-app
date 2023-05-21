@@ -1,0 +1,54 @@
+package models
+
+type FoodNutrients struct {
+	FoodID int 
+	Description string
+	WWEIA_category_number string
+	WWEIA_category_description string
+	Energy_kcal string
+	Protein_g float32
+	Carbohydrate_g float32
+	Sugars_total_g float32
+	Fiber_total_dietary_g float32
+	Total_fat_g float32
+	Fatty_acids_total_saturated_g float32
+	Fatty_acids_total_monounsaturated_g float32
+	Fatty_acids_total_polyunsaturated_g float32
+	Cholesterol_mg float32
+	Retinol_mcg float32
+	Vitamin_A_RAE_mcg_RAE string
+	Carotene_alpha_mcg float32
+	Carotene_beta_mcg float32
+	Cryptoxanthin_beta_mcg float32
+	Lycopene_mcg float32
+	Lutein_zeaxanthin_mcg float32
+	Thiamin_mg float32
+	Riboflavin_mg float32
+	Niacin_mg float32
+	Vitamin_B_6_mg float32
+	Folic_acid_mcg float32
+	Folate_food_mcg float32
+	Folate_DFE_mcg_DFE string
+	Folate_total_mcg float32
+	Choline_total_mg float32
+	Vitamin_B_12_mcg float32
+	Vitamin_B_12_added_mcg float32
+	Vitamin_C_mg float32
+	Vitamin_D_D2_D3_mcg float32
+	Vitamin_E_alpha_tocopherol_mg float32
+	Vitamin_E_added_mg float32
+	Vitamin_K_phylloquinone_mcg float32
+	Calcium_mg float32
+	Phosphorus_mg float32
+	Magnesium_mg float32
+	Iron_mg float32
+	Zinc_mg float32
+	Copper_mg float32
+	Selenium_mcg float32
+	Potassium_mg float32
+	Sodium_mg float32
+	Caffeine_mg float32
+	Theobromine_mg float32
+	Alcohol_g float32
+	Water_g float32
+}
