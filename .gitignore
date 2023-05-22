@@ -1,0 +1,5 @@
+nutritar-app-back-end/postgres-data/*
+nutritar-app-back-end/sql/homepic.jpg
+nutritar-app-back-end/internal/models/*.numbers
+nutritar-app-back-end/internal/models/*.json
+nutritar-app-back-end/internal/models/*.txt
