@@ -141,7 +141,7 @@ COPY public.gsbombs (id, gsbomb, created_at, updated_at) FROM stdin;
 5	Berries	2023-05-20 00:00:00	2023-05-20 00:00:00
 6	Seeds	2023-05-20 00:00:00	2023-05-20 00:00:00
 7	Fruits	2023-05-20 00:00:00	2023-05-20 00:00:00
-8	Antinuri	2023-05-20 00:00:00	2023-05-20 00:00:00
+8	Antinutri	2023-05-20 00:00:00	2023-05-20 00:00:00
 \.
 
 
@@ -149,11 +149,11 @@ COPY public.gsbombs (id, gsbomb, created_at, updated_at) FROM stdin;
 -- Data for Name: foods; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY public.foods (id, data_bank_id, food_name, food_description, created_at, updated_at) FROM stdin;
-1	72119190	Kale_raw	Kale_raw	2023-05-20 00:00:00	2023-05-20 00:00:00
-2	72119211	Kale_fresh_raw	Kale fresh,raw	2023-05-20 00:00:00	2023-05-20 00:00:00
-3	75103000	Cabbage_green_raw	Cabbage, green raw	2023-05-20 00:00:00	2023-05-20 00:00:00
-4	75115000	Mushrooms	Mushrooms raw_	2023-05-20 00:00:00	2023-05-20 00:00:00
+COPY public.foods (id, data_bank_id, food_name, food_description, food_image, created_at, updated_at) FROM stdin;
+1	72119190	Kale_raw	Kale_raw	/freshkale.jpg	2023-05-20 00:00:00	2023-05-20 00:00:00
+2	72119211	Kale_fresh_raw	Kale fresh,raw	/freshkale.jpg	2023-05-20 00:00:00	2023-05-20 00:00:00
+3	75103000	Cabbage_green_raw	Cabbage, green raw	/Cabbage.jpg	2023-05-20 00:00:00	2023-05-20 00:00:00
+4	75115000	Mushrooms	Mushrooms raw_	/mushrooms.jpg	2023-05-20 00:00:00	2023-05-20 00:00:00
 \.
 
 

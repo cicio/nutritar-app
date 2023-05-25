@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import foodAndi from '../foodandi.json'
+//import kale from '../images/freshkale.jpg'
 
 const Foods = () => {
     const [foods, setFoods] = useState([]);
@@ -34,22 +35,22 @@ const Foods = () => {
                 <thead>
                     <tr>
                         <td>Food</td>
+                        <td>Description</td>
+                        <td>Image</td>
                         <td>ANDI Score</td>
-                        <td>GOMBS Category</td>
-                        <td>Food Group</td>
                     </tr>
                 </thead>
                 <tbody>
                     {foods.map((f) => (
-                        <tr key={f.FoodID}>
+                        <tr key={f.id}>
                             <td>
                                 <Link to={`/foods/${f.id}`}>
-                                    {f.name}
+                                    {f.food_name}
                                 </Link>
                             </td>
+                            <td>{f.food_description}</td>
+                            <td>{f.food_image}</td>
                             <td>{foodAndi[f.name]}</td>
-                            <td>{f.gombsCategory}</td>
-                            <td>{f.foodGroup}</td>
                         </tr>
                     ))}
                 </tbody>
